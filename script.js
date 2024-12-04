@@ -12,6 +12,7 @@ const search = document.getElementById("search");
 const getClassByRate = (vote) => {
   if (vote >= 7.5) return "green";
   else if (vote >= 7) return "orange";
+  <h1>Movie App</h1>
   else return "red";
 };
 
