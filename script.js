@@ -13,7 +13,9 @@ const getClassByRate = (vote) => {
   if (vote >= 7.5) return "green";
   else if (vote >= 7) return "orange";
   <h1>Movie App</h1>
+
   else return "red";
+  <img src="https://www.themoviedb.org/assets/2/v4/logos/312x276-primary-green-df6d3b3d6f6c9f6b7b2b6>
 };
 
 const showMovies = (movies) => {
